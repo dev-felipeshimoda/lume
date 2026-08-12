@@ -113,3 +113,39 @@ Quando o usuário pedir skill nova:
 4. Se a skill precisar de arquivos de apoio (templates, exemplos),
    criar dentro da pasta da skill
 5. Seguir o fluxo da skill-creator nativa do Claude Code
+
+---
+
+## LUME — regras específicas do negócio
+
+> Bloco adicionado pelo `/instalar`. Perfil: freelancer (marca de estúdio, um operador).
+
+### O que é esse workspace
+
+Operação da LUME, o estúdio de tecnologia do Felipe. Aqui ficam a memória da marca, a identidade visual, os projetos de cliente e as entregas.
+
+**Estrutura de pastas:**
+- `_memoria/` — quem é a LUME, como fala, foco atual
+- `identidade/` — a marca aplicada nas entregas (design-guide v2)
+- `contexto-lume/` — manual de marca completo (fonte de verdade)
+- `clientes/` — uma subpasta por cliente, autossuficiente
+- `marketing/` — conteúdo da própria LUME (site, Instagram)
+- `saidas/` — emails, documentos pontuais
+- `dados/` — arquivos a analisar
+
+### Quem opera
+
+Felipe Shimoda, sozinho. Constrói sites institucionais para empresas sem presença digital e cria carrosséis para Instagram. A marca comercial é a LUME, um estúdio de tecnologia.
+
+### Duas vozes, não confundir
+
+- **Saída pública da LUME** (site, copy, posts, email a cliente): voz de estúdio, "a LUME", "nós". Segue `_memoria/preferencias.md` à risca (palavras proibidas, traduções, sem prova social, sem promessa de resultado).
+- **Conversa interna com o Felipe** (planejar, decidir, revisar): direto e normal, primeira pessoa liberada.
+
+### Regras do sistema
+
+- Qualquer tarefa visual (site, carrossel, post, proposta) lê `identidade/design-guide.md` antes de criar. A LUME é monocromática, sem cor de acento, tipografia fina.
+- Cliente novo → criar `clientes/<Nome>/` com `briefing.md`.
+- A landing page oficial da LUME é `lume-v2.html`: HTML único, autossuficiente, sem dependência externa além da fonte.
+- Nunca inventar portfólio, depoimentos, logos ou números. A LUME é sem prova social por decisão estratégica.
+- Os 4 diferenciais (100%, 24h, acompanhamento próximo, até ficar certo) são promessas públicas: só usar enquanto forem verdade.
